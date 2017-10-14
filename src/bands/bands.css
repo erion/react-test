@@ -1,0 +1,60 @@
+#bands a {display: block;}
+#bands li {
+  margin: 0.5rem 1rem;
+  border-bottom: 1px solid lightgray;
+  text-transform: uppercase;
+}
+
+#bands .rounded-image {
+  border-radius: 50%;
+  float: left;
+  padding: 0.5rem 0;
+  width: 3rem;
+}
+
+#bands .band-info {
+  float: left;
+  padding: 1rem;
+  text-align: left;  
+}
+
+#bands .band-plays {color: lightgray;}
+
+#bands .no-result {
+  padding-top: 8rem;
+  font-size: 2rem;
+  color: gray;  
+}
+#bands .no-result img {
+  height: 250px;
+  padding-top: 2rem;
+}
+
+#order-bands input[type=radio] {display: none;}
+#order-bands button img { width: 2rem; }
+#order-bands button {
+  border: none;
+  background: none;
+  float: right;
+}
+#order-bands button:focus {
+  outline: none;
+}
+
+#order-bands ul {
+  border: 1px solid dimgray;
+  background-color: dimgray;
+  color: white;
+  position: relative;
+  float: right;
+  left: 2.5rem;
+  line-height: 1.5rem;
+  padding: 10px;  
+  text-align: left;
+  top: 2rem;
+}
+
+.total-search-box {
+  height: 2rem;
+  padding-top: 8px;
+}

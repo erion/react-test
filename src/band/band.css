@@ -1,0 +1,47 @@
+#band {
+  position: absolute;
+  top:0;
+}
+
+#band .header {height: 30rem;}
+
+#band .additional-info {
+  color: gray;
+  margin-top: 4.5rem;
+  text-transform: uppercase;
+}
+
+#band .thumb {
+  border-radius: 50%;
+  padding: 0.5rem 0;
+  width: 7rem;
+}
+
+#band .name {
+  color: white;
+  font-size: 2rem;
+  position: absolute;
+  text-align: center;
+  top: 19rem;
+  width: 100%;
+}
+
+#band .main-image {
+  width: 100%;
+}
+
+#band ul {
+  position: relative;
+  top: -4rem;
+  width: 100%;
+}
+
+#band li {
+  float: left;
+  width: 33%;
+}
+
+#band .biography {
+  padding: 0 1rem;
+  text-align: justify;
+}

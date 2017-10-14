@@ -1,0 +1,21 @@
+#albums {
+  margin-top: 2rem;
+  text-align: left;
+}
+
+#albums img {width: 8rem;}
+#albums ul {position: initial;}
+#albums ul li {height: 8rem;}
+
+#albums h1 {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+#albums span {
+  bottom: 2.5rem;
+  color: white;
+  display: block;
+  height: 2rem;
+  position: relative;
+}
